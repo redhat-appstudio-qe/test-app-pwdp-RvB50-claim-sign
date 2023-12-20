@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-d2pj
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-ofyp-tenant/test-app-pwdp/devfile-sample-python-basic-d2pj@sha256:efd9c6d8234c177a32c3ce799ab91e4caa4ddc2442cd5ea0713e2fdbed151243
         name: my-python
         ports:
         - containerPort: 8081
